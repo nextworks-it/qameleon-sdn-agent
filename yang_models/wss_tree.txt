@@ -1,0 +1,15 @@
+module: wss
+   +--rw wss
+      +--rw wss-id?                uint32
+      +--rw wss-direction?         direction-type
+      +--rw wss-number-of-ports?   uint32
+      +--rw wss-speed?             boolean
+      +--rw wss-ports* [port-id]
+         +--rw port-id                uint32
+         +--rw port-direction?        direction-type
+         +--rw port-frequency-info
+            +--rw base-central-frequency?               frequency-ghz-type
+            +--rw base-central-frequency-granularity?   frequency-ghz-type
+            +--rw central-frequency-slot-granularity?   frequency-ghz-type
+            +--rw n                                     int16
+            +--rw m                                     int16

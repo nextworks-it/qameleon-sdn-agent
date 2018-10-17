@@ -1,0 +1,7 @@
+module: roamd
+   +--rw roadm
+      +--rw roadm-id?     string
+      +--rw directions* [direction-id]
+         +--rw direction-id          uint32
+         +--rw direction-switches* [wss-id]
+         +--rw direction-tpas* [tpa-id]

@@ -1,0 +1,57 @@
+module roamd {
+    namespace "http://org/nextworks/qameleon/roadm";
+    prefix roadm;
+
+    import wss {
+        prefix wss;
+    }
+
+    import tpa {
+        prefix tpa;
+    }
+
+    organization
+        "Nextworks s.r.l.";
+
+    contact
+        "Editor: Pietro G. Giardina <mailto:p.giardina@nextworks.it>";
+
+    description
+        "This YANG defines configurations for a reconfigurable optical add/drop multiplexer (ROADM)";
+
+    revision 2018-05-08 {
+        description "Initial Revision";
+    }
+
+    grouping roadm-direction {
+        leaf direction-id {
+            type uint32;
+        }
+
+        list direction-switches {
+            description "List of WSS insisting in this roadm direction";
+            key "wss-id";
+            uses wss:wss;
+        }
+
+    }
+
+    //---------- MAIN TREE ------------//
+    container roadm {
+        leaf roadm-id {
+            type string;
+        }
+        list directions {
+            description "grades of the roadm";
+            key "direction-id";
+            uses roadm-direction;
+        }
+        list tpas {
+            description "List of TPAs insisting in this roadm direction";
+            key "tpa-id";
+            uses tpa:tpa;
+        }
+
+        //----Wiring TBD ----//
+    }
+}

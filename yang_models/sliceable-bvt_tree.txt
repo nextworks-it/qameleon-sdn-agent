@@ -1,0 +1,20 @@
+module: sliceable-bvt
+   +--rw sbvt
+      +--rw sbvt-id?                 uint16
+      +--rw slice-ability-support?   boolean
+      +--rw optical-flows* [of-id]
+         +--rw of-id                    uint32
+         +--rw optical-flow-carriers* [ofc-id]
+            +--rw ofc-id                uint32
+            +--rw frequency-info
+            |  +--rw base-central-frequency?               frequency-ghz-type
+            |  +--rw base-central-frequency-granularity?   frequency-ghz-type
+            |  +--rw central-frequency-slot-granularity?   frequency-ghz-type
+            |  +--rw n                                     int16
+            |  +--rw m                                     int16
+            +--rw subcarrier-modules* [subcarrier-id]
+               +--rw subcarrier-id        uint32
+               +--rw direction?           direction-type
+               +--rw baud-rate?           baud-rate-type
+               +--rw modulation?          modulation-type
+               +--rw central-frequency?   frequency-ghz-type
