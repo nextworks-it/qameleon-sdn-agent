@@ -1,0 +1,1 @@
+[main] WARN org.opendaylight.netconf.util.NetconfUtil - Can not load last configuration. Operation failed.

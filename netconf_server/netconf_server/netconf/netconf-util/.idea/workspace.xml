@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84da38ec-ebb2-447e-a946-a13393cb3eb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionNegotiatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionNegotiatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/AggregatedNetconfOperationServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/AggregatedNetconfOperationServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfOperationRouterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfOperationRouterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netconf-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netconf-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/netconf/util/mapping/AbstractNetconfOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/netconf/util/mapping/AbstractNetconfOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/NetconfDeviceSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/NetconfDeviceSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/SimulatedOperationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/SimulatedOperationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpc/SimulatedEditConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpc/SimulatedEditConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpc/SimulatedGetConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpc/SimulatedGetConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/RpcHandlerDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/RpcHandlerDefault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/SettableRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/SettableRpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restconf/restconf-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../restconf/restconf-parent/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Y1jqJ8cbAr9RV1hLpedz0mFyxi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84da38ec-ebb2-447e-a946-a13393cb3eb5" name="Default Changelist" comment="" />
+      <created>1582117183181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582117183181</updated>
+    </task>
+    <servers />
+  </component>
+</project>

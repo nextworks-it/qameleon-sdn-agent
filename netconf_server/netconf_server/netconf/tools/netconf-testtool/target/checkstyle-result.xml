@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/Main.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpc/SimulatedEditConfig.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/SettableRpc.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/RpcHandlerQAMeleon.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^/[*]+$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/rpchandler/RpcHandlerDefault.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/tools/netconf-testtool/src/main/java/org/opendaylight/netconf/test/tool/NetconfDeviceSimulator.java">
+</file>
+</checkstyle>

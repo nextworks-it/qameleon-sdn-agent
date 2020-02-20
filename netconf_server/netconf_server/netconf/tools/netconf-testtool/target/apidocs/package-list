@@ -1,0 +1,11 @@
+org.opendaylight.netconf.test.tool
+org.opendaylight.netconf.test.tool.client.http.perf
+org.opendaylight.netconf.test.tool.client.stress
+org.opendaylight.netconf.test.tool.config
+org.opendaylight.netconf.test.tool.customrpc
+org.opendaylight.netconf.test.tool.monitoring
+org.opendaylight.netconf.test.tool.operations
+org.opendaylight.netconf.test.tool.rpc
+org.opendaylight.netconf.test.tool.rpchandler
+org.opendaylight.netconf.test.tool.scale.util
+org.opendaylight.netconf.test.tool.schemacache

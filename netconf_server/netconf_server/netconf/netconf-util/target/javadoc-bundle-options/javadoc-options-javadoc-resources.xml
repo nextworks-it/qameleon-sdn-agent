@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <tags>
+    <tag>
+      <name>goal</name>
+      <head>Goal:</head>
+      <placement>t</placement>
+    </tag>
+    <tag>
+      <name>requiresProject</name>
+      <head>Requires project:</head>
+      <placement>t</placement>
+    </tag>
+    <tag>
+      <name>threadSafe</name>
+      <head>Threadsafe</head>
+      <placement>t</placement>
+    </tag>
+    <tag>
+      <name>phase</name>
+      <head>Phase:</head>
+      <placement>t</placement>
+    </tag>
+  </tags>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>

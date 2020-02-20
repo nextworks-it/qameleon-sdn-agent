@@ -1,0 +1,15 @@
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/mapping/AbstractSingletonNetconfOperationTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/xml/HardcodedNamespaceResolverTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/test/XmlUnitUtil.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/mapping/AbstractLastNetconfOperationTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/mapping/AbstractNetconfOperationTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/CloseableUtilTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/SubtreeFilterNotificationTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/NetconfUtilTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/test/NetconfXmlUnitRecursiveQualifier.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/NetconfConfigurationImplTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/SubtreeFilterRpcTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/SendErrorExceptionUtilTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/test/XmlFileLoader.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/xml/XMLNetconfUtilTest.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/NetconfMessageUtilTest.java

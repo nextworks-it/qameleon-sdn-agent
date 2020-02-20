@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerDispatcherImpl.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionNegotiator.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfOperationRouterImpl.java">
+<error line="13" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="37" column="50" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="50" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfSessionMonitoringService.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfOperationRouter.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/AggregatedNetconfOperationServiceFactory.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfMonitoringServiceImpl.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/osgi/NetconfCapabilityMonitoringService.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSession.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/util/DeserializerExceptionHandler.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/ServerChannelInitializer.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionListener.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionNegotiatorFactoryBuilder.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/mapping/operations/DefaultStartExi.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/mapping/operations/DefaultStopExi.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/mapping/operations/DefaultNetconfOperation.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/mapping/operations/DefaultCloseSession.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/SessionIdProvider.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/main/java/org/opendaylight/netconf/impl/NetconfServerSessionNegotiatorFactory.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/MessageParserTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/osgi/NetconfOperationRouterImplTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/osgi/NetconfSessionMonitoringServiceTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/osgi/AggregatedNetconfOperationServiceFactoryTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/osgi/NetconfCapabilityMonitoringServiceTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionTest.java">
+<error line="70" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/ExiEncodeDecodeTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/ConcurrentClientsTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/util/DeserializerExceptionHandlerTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionNegotiatorTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfDispatcherImplTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/AdditionalHeaderParserTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/NetconfServerSessionListenerTest.java">
+<error line="52" column="29" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/mapping/operations/DefaultCloseSessionTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java3/netconf/netconf/netconf-impl/src/test/java/org/opendaylight/netconf/impl/mapping/operations/DefaultStopExiTest.java">
+</file>
+</checkstyle>

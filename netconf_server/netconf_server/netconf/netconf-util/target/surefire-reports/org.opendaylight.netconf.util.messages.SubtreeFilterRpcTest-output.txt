@@ -1,0 +1,336 @@
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="0">
+  <data>
+    <top xmlns="http://example.com/schema/1.2/config">
+      <users>
+        <user>
+          <name>root</name>
+          <type>superuser</type>
+          <full-name>Charlie Root</full-name>
+          <company-info>
+            <dept>1</dept>
+            <id>1</id>
+          </company-info>
+        </user>
+        <user>
+          <name>fred</name>
+          <type>admin</type>
+          <full-name>Fred Flintstone</full-name>
+          <company-info>
+            <dept>2</dept>
+            <id>2</id>
+          </company-info>
+        </user>
+        <user>
+          <name>barney</name>
+          <type>admin</type>
+          <full-name>Barney Rubble</full-name>
+          <company-info>
+            <dept>2</dept>
+            <id>3</id>
+          </company-info>
+        </user>
+      </users>
+      <groups>
+        <group>
+          <name>admin</name>
+        </group>
+      </groups>
+    </top>
+  </data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="1">
+<data/>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="2">
+<data>
+<top xmlns="http://example.com/schema/1.2/config">
+<users>
+        <user>
+          <name>root</name>
+          <type>superuser</type>
+          <full-name>Charlie Root</full-name>
+          <company-info>
+            <dept>1</dept>
+            <id>1</id>
+          </company-info>
+        </user>
+        <user>
+          <name>fred</name>
+          <type>admin</type>
+          <full-name>Fred Flintstone</full-name>
+          <company-info>
+            <dept>2</dept>
+            <id>2</id>
+          </company-info>
+        </user>
+        <user>
+          <name>barney</name>
+          <type>admin</type>
+          <full-name>Barney Rubble</full-name>
+          <company-info>
+            <dept>2</dept>
+            <id>3</id>
+          </company-info>
+        </user>
+      </users>
+</top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="3">
+<data>
+<top xmlns="http://example.com/schema/1.2/config">
+<users>
+<user>
+<name>root</name>
+</user>
+<user>
+<name>fred</name>
+</user>
+<user>
+<name>barney</name>
+</user>
+</users>
+</top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="4">
+<data>
+<top xmlns="http://example.com/schema/1.2/config">
+<users>
+<user>
+          <name>fred</name>
+          <type>admin</type>
+          <full-name>Fred Flintstone</full-name>
+          <company-info>
+            <dept>2</dept>
+            <id>2</id>
+          </company-info>
+        </user>
+</users>
+</top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="5">
+<data>
+<top xmlns="http://example.com/schema/1.2/config">
+<users>
+<user>
+<name>fred</name>
+<type>admin</type>
+<full-name>Fred Flintstone</full-name>
+</user>
+</users>
+</top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="6">
+<data>
+<top xmlns="http://example.com/schema/1.2/config">
+<users>
+<user>
+<name>root</name>
+<company-info>
+            <dept>1</dept>
+            <id>1</id>
+          </company-info>
+</user>
+<user>
+<name>fred</name>
+<company-info>
+<id>2</id>
+</company-info>
+</user>
+</users>
+</top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="7">
+<data>
+<prefix:top xmlns:prefix="http://example.com/schema/1.2/stats">
+<prefix:interfaces>
+<prefix:interface prefix:ifName="eth0">
+          <prefix:ifInOctets>45621</prefix:ifInOctets>
+          <prefix:ifOutOctets>774344</prefix:ifOutOctets>
+        </prefix:interface>
+</prefix:interfaces>
+</prefix:top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="m-6">
+<data>
+<services xmlns="urn:opendaylight:params:xml:ns:yang:controller:config">
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:dom">prefix:schema-service</type>
+        <instance>
+          <name>yang-schema-service</name>
+          <provider>/modules/module[type='schema-service-singleton'][name='yang-schema-service']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:dom">prefix:dom-broker-osgi-registry</type>
+        <instance>
+          <name>dom-broker</name>
+          <provider>/modules/module[type='dom-broker-impl'][name='inmemory-dom-broker']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:dom">prefix:dom-async-data-broker</type>
+        <instance>
+          <name>inmemory-data-broker</name>
+          <provider>/modules/module[type='dom-inmemory-data-broker'][name='inmemory-data-broker']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:threadpool">prefix:threadpool</type>
+        <instance>
+          <name>global-netconf-processing-executor</name>
+          <provider>/modules/module[type='threadpool-flexible'][name='global-netconf-processing-executor']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:threadpool">prefix:threadfactory</type>
+        <instance>
+          <name>global-netconf-processing-executor-threadfactory</name>
+          <provider>/modules/module[type='threadfactory-naming'][name='global-netconf-processing-executor-threadfactory']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding:impl">prefix:binding-dom-mapping-service</type>
+        <instance>
+          <name>runtime-mapping-singleton</name>
+          <provider>/modules/module[type='runtime-generated-mapping'][name='runtime-mapping-singleton']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:netty">prefix:netty-timer</type>
+        <instance>
+          <name>global-timer</name>
+          <provider>/modules/module[type='netty-hashed-wheel-timer'][name='global-timer']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:netty">prefix:netty-threadgroup</type>
+        <instance>
+          <name>global-boss-group</name>
+          <provider>/modules/module[type='netty-threadgroup-fixed'][name='global-boss-group']</provider>
+        </instance>
+        <instance>
+          <name>global-worker-group</name>
+          <provider>/modules/module[type='netty-threadgroup-fixed'][name='global-worker-group']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:netty">prefix:netty-event-executor</type>
+        <instance>
+          <name>global-event-executor</name>
+          <provider>/modules/module[type='netty-global-event-executor'][name='singleton']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">prefix:binding-rpc-registry</type>
+        <instance>
+          <name>binding-rpc-broker</name>
+          <provider>/modules/module[type='binding-broker-impl'][name='binding-broker-impl']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">prefix:binding-notification-service</type>
+        <instance>
+          <name>binding-notification-broker</name>
+          <provider>/modules/module[type='binding-notification-broker'][name='binding-notification-broker']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">prefix:binding-broker-osgi-registry</type>
+        <instance>
+          <name>binding-osgi-broker</name>
+          <provider>/modules/module[type='binding-broker-impl'][name='binding-broker-impl']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">prefix:binding-data-broker</type>
+        <instance>
+          <name>binding-data-broker</name>
+          <provider>/modules/module[type='binding-data-compatible-broker'][name='inmemory-binding-data-broker']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:config:kitchen-service:impl">prefix:kitchen-service</type>
+        <instance>
+          <name>kitchen-service</name>
+          <provider>/modules/module[type='kitchen-service-impl'][name='kitchen-service-impl']</provider>
+        </instance>
+      </service>
+<service>
+        <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:config:netconf">prefix:netconf-client-dispatcher</type>
+        <instance>
+          <name>global-netconf-dispatcher</name>
+          <provider>/modules/module[type='netconf-client-dispatcher'][name='global-netconf-dispatcher']</provider>
+        </instance>
+      </service>
+</services>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="5">
+<data>
+<top xmlns="http://example.com/schema/1.2/config">
+<users>
+<user>
+<name>fred</name>
+<type xmlns:x="http://java.sun.com/dtd/properties.dtd">x:admin</type>
+<full-name>Fred Flintstone</full-name>
+</user>
+</users>
+</top>
+</data>
+</rpc-reply>
+
+[main] INFO org.opendaylight.netconf.util.messages.SubtreeFilterRpcTest - Actual document: <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="m-10">
+<data>
+<modules xmlns="urn:opendaylight:params:xml:ns:yang:controller:config">
+<module>
+                <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">prefix:sal-netconf-connector</type>
+                <name>controller-config</name>
+                <port xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">1830</port>
+                <connection-timeout-millis xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">20000</connection-timeout-millis>
+                <between-attempts-timeout-millis xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">2000</between-attempts-timeout-millis>
+                <sleep-factor xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">1.5</sleep-factor>
+                <password xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">admin</password>
+                <dom-registry xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">
+                    <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:dom">prefix:dom-broker-osgi-registry</type>
+                    <name>dom-broker</name>
+                </dom-registry>
+                <client-dispatcher xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">
+                    <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:config:netconf">prefix:netconf-client-dispatcher</type>
+                    <name>global-netconf-dispatcher</name>
+                </client-dispatcher>
+                <username xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">admin</username>
+                <address xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">127.0.0.1</address>
+                <processing-executor xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">
+                    <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:threadpool">prefix:threadpool</type>
+                    <name>global-netconf-processing-executor</name>
+                </processing-executor>
+                <tcp-only xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">false</tcp-only>
+                <binding-registry xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">
+                    <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">prefix:binding-broker-osgi-registry</type>
+                    <name>binding-osgi-broker</name>
+                </binding-registry>
+                <max-connection-attempts xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">0</max-connection-attempts>
+                <event-executor xmlns="urn:opendaylight:params:xml:ns:yang:controller:md:sal:connector:netconf">
+                    <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:netty">prefix:netty-event-executor</type>
+                    <name>global-event-executor</name>
+                </event-executor>
+            </module>
+</modules>
+</data>
+</rpc-reply>
+

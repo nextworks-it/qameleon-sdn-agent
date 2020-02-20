@@ -1,0 +1,15 @@
+module: tpa
+  +--rw tpa
+     +--rw tpa-id?                   uint32
+     +--rw tpa-direction?            tpa-direction-type
+     +--rw tpa-number-of-inports?    uint32
+     +--rw tpa-number-of-outports?   uint32
+     +--rw tpa-ports* [port-id]
+        +--rw port-id                uint32
+        +--rw port-direction?        tpa-port-direction-type
+        +--rw port-frequency-info
+           +--rw base-central-frequency?               frequency-ghz-type
+           +--rw base-central-frequency-granularity?   frequency-ghz-type
+           +--rw central-frequency-slot-granularity?   frequency-ghz-type
+           +--rw n                                     int16
+           +--rw m                                     int16

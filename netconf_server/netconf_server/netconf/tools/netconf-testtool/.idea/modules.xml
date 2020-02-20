@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../netconf-impl/netconf-impl.iml" filepath="$PROJECT_DIR$/../../netconf-impl/netconf-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netconf-testtool.iml" filepath="$PROJECT_DIR$/netconf-testtool.iml" />
+    </modules>
+  </component>
+</project>

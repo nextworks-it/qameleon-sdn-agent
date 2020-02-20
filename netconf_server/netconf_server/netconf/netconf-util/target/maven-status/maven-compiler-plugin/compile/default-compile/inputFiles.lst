@@ -1,0 +1,17 @@
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/FramingMechanism.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/NetconfMessageUtil.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/mapping/AbstractNetconfOperation.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/xml/XMLNetconfUtil.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfConfiguration.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/xml/HardcodedNamespaceResolver.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfUtil.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/CloseableUtil.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfConfigurationImpl.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/StreamingContext.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/mapping/AbstractLastNetconfOperation.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/NetconfMessageConstants.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfConfigurationHolder.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/mapping/AbstractSingletonNetconfOperation.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NodeContainerProxy.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/SendErrorExceptionUtil.java
+/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/SubtreeFilter.java

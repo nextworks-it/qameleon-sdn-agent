@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfConfiguration.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfUtil.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/xml/HardcodedNamespaceResolver.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/xml/XMLNetconfUtil.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NodeContainerProxy.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/SubtreeFilter.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/FramingMechanism.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/NetconfMessageUtil.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/SendErrorExceptionUtil.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/messages/NetconfMessageConstants.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfConfigurationImpl.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/mapping/AbstractNetconfOperation.java">
+<error line="101" severity="warning" message="Line is longer than 120 characters (found 146)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/mapping/AbstractLastNetconfOperation.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/mapping/AbstractSingletonNetconfOperation.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/NetconfConfigurationHolder.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/StreamingContext.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/main/java/org/opendaylight/netconf/util/CloseableUtil.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/CloseableUtilTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/xml/HardcodedNamespaceResolverTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/xml/XMLNetconfUtilTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/SendErrorExceptionUtilTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/SubtreeFilterNotificationTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/NetconfMessageUtilTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/messages/SubtreeFilterRpcTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/test/NetconfXmlUnitRecursiveQualifier.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/test/XmlUnitUtil.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/test/XmlFileLoader.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/NetconfConfigurationImplTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/mapping/AbstractSingletonNetconfOperationTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/mapping/AbstractNetconfOperationTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/mapping/AbstractLastNetconfOperationTest.java">
+</file>
+<file name="/home/pietro/Desktop/netconf_stuff/java/netconf/netconf/netconf-util/src/test/java/org/opendaylight/netconf/util/NetconfUtilTest.java">
+</file>
+</checkstyle>
