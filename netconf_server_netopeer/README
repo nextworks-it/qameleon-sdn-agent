@@ -1,0 +1,9 @@
+In this dir there are:
+- the generated Transapi and other external lib to include into netooper server, for tpa and wss (for now).
+- a simple socket listener server written in python to receive and parse the xml message sent by the wss and tpa callbacks.
+
+To make working you need:
+- netopeer server installed
+- netopeer manager installed
+- netopeer cli installed to send the netconf request. (Some wss and tpa edit-config example requests are in the Misc file)
+
