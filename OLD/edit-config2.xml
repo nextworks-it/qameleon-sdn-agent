@@ -1,0 +1,16 @@
+<tpa xmlns="http://org/nextworks/qameleon/tpa">
+	<tpa-id>1</tpa-id>
+	<tpa-direction>ADD</tpa-direction>
+	<tpa-number-of-inports>1</tpa-number-of-inports>
+	<tpa-number-of-outports>1</tpa-number-of-outports>
+	<tpa-ports>
+		<port-id>1</port-id>
+		<port-direction>O</port-direction>
+		<port-frequency-info>
+			<base-central-frequency-granularity>5</base-central-frequency-granularity>
+			<central-frequency-slot-granularity>10</central-frequency-slot-granularity>
+			<n>2</n>
+			<m>2</m>
+		</port-frequency-info>
+	</tpa-ports>
+</tpa>
