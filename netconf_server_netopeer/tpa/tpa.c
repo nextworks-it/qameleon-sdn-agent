@@ -40,20 +40,7 @@ Feel free to use it to distinguish module behavior for different error-option va
                          executed again with previous configuration data to roll it back.
  */
 NC_EDIT_ERROPT_TYPE erropt = NC_EDIT_ERROPT_NOTSET;
-/*
-void write_on_file(char * msg){
-	FILE * fp;
-   int i;
 
-   fp = fopen ("/home/pietro/Desktop/QAmeleon/yang_model/tpa/file.txt","a");
- 
-	printf("Initing tpa");
-   fprintf (fp, "%s\n",msg);
-   
- 
-   fclose (fp);
-}
-*/
 /**
  * @brief Initialize plugin after loaded and before any other functions are called.
 
@@ -72,8 +59,7 @@ void write_on_file(char * msg){
  * @return EXIT_SUCCESS or EXIT_FAILURE
  */
 int transapi_init(xmlDocPtr *running) {
-	//write_on_file("Init callback");
-	
+	write_on_file("/home/pietro/repo/qameleon/netconf_server_netopeer/file.txt", "Init tpa");
 	return EXIT_SUCCESS;
 }
 
@@ -81,7 +67,7 @@ int transapi_init(xmlDocPtr *running) {
  * @brief Free all resources allocated on plugin runtime and prepare plugin for removal.
  */
 void transapi_close(void) {
-	//write_on_file("Close callback");
+	write_on_file("/home/pietro/repo/qameleon/netconf_server_netopeer/file.txt", "Closing tpa");
 	return;
 }
 
@@ -94,7 +80,7 @@ void transapi_close(void) {
  * @return State data as libxml2 xmlDocPtr or NULL in case of error.
  */
 xmlDocPtr get_state_data(xmlDocPtr model, xmlDocPtr running, struct nc_err **err) {
-	//write_on_file("get state data callback");
+	write_on_file("/home/pietro/repo/qameleon/netconf_server_netopeer/file.txt", "get_state_data tpa");
 	return(NULL);
 }
 /*
@@ -122,6 +108,7 @@ struct ns_pair namespace_mapping[] = {{"tpa", "http://org/nextworks/qameleon/tpa
  */
 /* !DO NOT ALTER FUNCTION SIGNATURE! */
 int callback_tpa_tpa_tpa_tpa_config_tpa_tpa_id(void **data, XMLDIFF_OP op, xmlNodePtr old_node, xmlNodePtr new_node, struct nc_err **error) {
+	write_on_file("/home/pietro/repo/qameleon/netconf_server_netopeer/file.txt", "callback_tpa_tpa_tpa_tpa_config_tpa_tpa_id");
 	return EXIT_SUCCESS;
 }
 
@@ -149,11 +136,6 @@ char* xml_node_to_string(xmlNodePtr xml_node_ptr){
  */
 /* !DO NOT ALTER FUNCTION SIGNATURE! */
 int callback_tpa_tpa(void **data, XMLDIFF_OP op, xmlNodePtr old_node, xmlNodePtr new_node, struct nc_err **error) {
-	//write_on_file("callback_tpa_tpa");
-	//printf("node name: %s\n",new_node->name);
-	//printf("node content: %s\n",new_node->content);
-	//printf("node line: %d\n",new_node->line);
-	//printf("node line: %d\n",new_node->type);
 	printf("Raw content NEW is :%s\n",(char*)xml_node_to_string(new_node));
 	send_string_over_socket((char*)xml_node_to_string(new_node));
 	printf("Raw content OLD is :%s\n",(char*)xml_node_to_string(old_node));

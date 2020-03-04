@@ -30,7 +30,7 @@ int send_string_over_socket(char * string){
 	close(sock);
 	return 0; 
 }
-/*
+
 void write_on_file(char * filename, char * msg){
 	FILE * fp;
 	int i;
@@ -39,4 +39,4 @@ void write_on_file(char * filename, char * msg){
 
 	fclose (fp);
 }
-*/
+

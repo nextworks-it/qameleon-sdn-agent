@@ -16,4 +16,5 @@
 #define SERVER_PORT 12345
 
 int send_string_over_socket(char * string);
+void write_on_file(char * filename, char * msg);
 

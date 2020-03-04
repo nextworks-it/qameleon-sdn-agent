@@ -9,8 +9,8 @@
 		<port-frequency-info>
 			<base-central-frequency-granularity>10</base-central-frequency-granularity>
 			<central-frequency-slot-granularity>10</central-frequency-slot-granularity>
-			<n>10</n>
-			<m>31</m>
+			<n>1</n>
+			<m>1</m>
 		</port-frequency-info>
 	</tpa-ports>
 </tpa>

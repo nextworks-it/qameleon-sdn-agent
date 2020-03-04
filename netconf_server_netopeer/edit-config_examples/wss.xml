@@ -4,7 +4,7 @@
 		<port-id>424</port-id>
 		<port-frequency-info>
 		<n>24</n>	
-		<m>33</m>		
+		<m>1</m>		
 		</port-frequency-info>
 	</wss-ports>
 </wss>

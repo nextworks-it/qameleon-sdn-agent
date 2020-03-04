@@ -12,7 +12,7 @@ datastore_collector = {}
 
 def convert_to_json(data):
 	str_data=data.decode("utf-8")
-	print("raw data:"+str_data);
+	print("raw data: "+str_data);
 	try:
 		json_object = xmltodict.parse(str_data)
 		#print(json.dumps(json_object, indent=4, sort_keys=True))
