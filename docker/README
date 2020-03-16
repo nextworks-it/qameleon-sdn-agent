@@ -1,0 +1,17 @@
+#1. Clone netopeer remote repository
+git clone https://github.com/CESNET/netopeer
+
+#2. Replace Dockerfile into netopeer dir, with Dockerfile in this dir
+cp Dockerfile netopeer/Dockerfile
+
+#3. Build the docker image
+cd netopeer
+sudo docker build -t netopeer_server:0.1 .
+
+#4. Bash into container
+sudo docker exec -i -t <docker_image> /bin/bash
+
+#5. Execute below command to make available netconf-configurator to allow\deny user access
+cp -r /usr/local/lib/python2.7/site-packages/netopeer /usr/lib/python2.7/site-packages/netopeer
+
+
