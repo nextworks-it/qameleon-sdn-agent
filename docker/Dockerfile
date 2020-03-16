@@ -35,11 +35,10 @@ RUN set -e -x; \
     ./configure; \
     make; \
     make install; \
-    ls /usr/etc/netopeer; \
     mkdir /usr/etc/netopeer/ietf-system; \
-    ls /usr/etc/netopeer; \
     touch /usr/etc/netopeer/ietf-system/datastore.xml; \
-    sed -i '/<hostname>/d' /usr/etc/netopeer/ietf-system/datastore.xml
+    sed -i '/<hostname>/d' /usr/etc/netopeer/ietf-system/datastore.xml; \
+    cp -r /usr/local/lib/python2.7/site-packages/netopeer /usr/lib/python2.7/site-packages/netopeer
 
 CMD ["netopeer-server", "-v", "3"]
 
