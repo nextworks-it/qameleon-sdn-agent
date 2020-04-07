@@ -1,0 +1,15 @@
+*.out
+*.la
+*.lai
+*.so
+*.o
+*.lo
+*.0
+*.1
+*.guess
+*.log
+*.status
+*.in
+*.sub
+*.rng
+*.xls
