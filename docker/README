@@ -1,7 +1,8 @@
 After to have executed the script in this dir, some manual steps have to be performed:
 
 0. Show all docker images with sudo docker image ls
-1. Run the container with: sudo docker run <image_id>
+1. Run the container with: sudo docker run -v <host_path_where_conf_file_are_stored>:/home/cfg_files <image_id>
+	1.1 Example: sudo docker run -v /home/pietro/repo/qameleon/docker/shared_dir:/home/cfg_files 14d8a279de88
 2. Show the running container with: sudo docker ps
 3. Access the container with: sudo docker exec -it <container_id> /bin/bash
 4. Inside the container: netopeer-configuration
@@ -13,4 +14,4 @@ After to have executed the script in this dir, some manual steps have to be perf
 7. Restart the container with: sudo docker restart <container_id> in order to reload the setting of step 4.
 
 N.B. In the current version, socket_server.py in /usr/src/netopeer/socket_server and startup_config_diff.py in /usr/src/netopeer/startup_config_diff must be run manually. Will be automated in next developments.
-N.B2: The netconf client must need a private key to query the server. It is /etc/ssh/ssh_host_rsa_key into the container. 
+N.B2: The netconf client must need a private key to query the server. It is stored into /etc/ssh/ssh_host_rsa_key path into the container. 
